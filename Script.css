@@ -1,0 +1,30 @@
+.infographic-container {
+  position: relative;
+  text-align: center;
+}
+
+#birthday-infographic {
+  position: relative;
+  width: 600px; /* Ancho de tu imagen */
+  height: 800px; /* Alto de tu imagen */
+  background-image: url('ruta-a-tu-imagen-de-fondo.jpg'); /* Cambia a la ruta de tu imagen */
+  background-size: cover;
+  margin: 0 auto;
+}
+
+#birthday-data {
+  position: absolute;
+  top: 50%; /* Ajustar según la posición deseada */
+  left: 50%; /* Ajustar según la posición deseada */
+  transform: translate(-50%, -50%);
+  color: white; /* O el color que desees para el texto */
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+button {
+  margin-top: 10px;
+}
